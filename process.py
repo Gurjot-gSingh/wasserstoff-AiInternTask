@@ -10,7 +10,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import uuid
 
 # Setup Transformers model
-model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+model_name = "sshleifer/tiny-gpt2"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
