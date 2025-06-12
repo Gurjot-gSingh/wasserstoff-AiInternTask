@@ -4,8 +4,8 @@ import fitz  # PyMuPDF
 from typing import List, Dict
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import uuid
 
